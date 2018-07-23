@@ -15,3 +15,11 @@ $monopoly-blue: #0E63A3;
 [data-color=yellow] { background-color: $monopoly-yellow; }
 [data-color=green] { background-color: $monopoly-green; }
 [data-color=blue] { background-color: $monopoly-blue; }
+
+// Grid
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+	grid-gap: 20px;
+}
