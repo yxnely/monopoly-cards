@@ -11,7 +11,7 @@ I made Monopoly cards out of CSS because...why not?
 * VueJS
 
 ### Live
-See it in action [here](https://yxnely.github.io/monopoly-cards/index.html)
+See it in action [here](https://yxnely.github.io/monopoly-cards/)
 
 #### Credits :smile_cat:
 Special thanks to  daviscodesbugs for providing the Monopoly properties in a nicely formatted JSON, that was a HUGE help!
