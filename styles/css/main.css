@@ -25,6 +25,7 @@
 
 .container {
   max-width: 1200px;
+  width: 95%;
   margin: 2rem auto; }
 
 .grid {
@@ -66,5 +67,22 @@
       padding: 1rem 0 0;
       text-align: center;
       width: 90%; }
+
+@media screen and (min-width: 768px) and (max-width: 1000px) {
+  .grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr; } }
+@media screen and (min-width: 568px) and (max-width: 767px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr; } }
+@media screen and (max-width: 567px) {
+  .grid {
+    display: block; }
+
+  .card {
+    max-width: 300px;
+    width: 90%;
+    margin: 0 auto 2rem; } }
 
 /*# sourceMappingURL=main.css.map */
