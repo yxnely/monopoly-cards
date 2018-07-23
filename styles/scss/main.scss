@@ -22,4 +22,27 @@ $monopoly-blue: #0E63A3;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	grid-template-rows: 1fr 1fr 1fr 1fr;
 	grid-gap: 20px;
+	margin: 2rem 1rem;
+}
+
+.card {
+	border: 2px solid black;
+
+	[data-color=purple] {
+		color: white;
+	}
+
+	&-title {
+		padding: 1rem 0;
+		text-align: center;
+
+		&__text {
+			margin: 0;
+			padding-bottom: .25rem;
+		}
+
+		&__name {
+			margin: 0;
+		}
+	}
 }
