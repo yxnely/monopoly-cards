@@ -54,7 +54,7 @@
     .card-body__rent {
       text-align: center;
       display: block;
-      padding: .25rem 0 0 0; }
+      padding: 0.25rem 0 0 0; }
     .card-body__rents {
       width: 90%;
       margin: 0 auto; }
@@ -62,7 +62,7 @@
       display: flex;
       justify-content: space-between; }
     .card-body__footer {
-      font-size: .65rem;
+      font-size: 0.65rem;
       margin: 0 auto;
       padding: 1rem 0 0;
       text-align: center;
