@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Roboto+Slab');
+
 $monopoly-purple: #40247A;
 $monopoly-light-blue: #B2D9DC;
 $monopoly-magenta: #DF2879;
@@ -33,16 +35,22 @@ $monopoly-blue: #0E63A3;
 	}
 
 	&-title {
-		padding: 1rem 0;
+		font-family: 'Roboto Slab';
+		padding: .5rem 0;
 		text-align: center;
 
 		&__text {
 			margin: 0;
 			padding-bottom: .25rem;
+			text-transform: uppercase;
 		}
 
 		&__name {
 			margin: 0;
 		}
+	}
+
+	&-body {
+		font-family: 'Raleway';
 	}
 }

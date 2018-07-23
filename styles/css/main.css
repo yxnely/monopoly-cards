@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway|Roboto+Slab");
 [data-color=purple] {
   background-color: #40247A; }
 
@@ -34,12 +35,16 @@
   .card [data-color=purple] {
     color: white; }
   .card-title {
-    padding: 1rem 0;
+    font-family: 'Roboto Slab';
+    padding: .5rem 0;
     text-align: center; }
     .card-title__text {
       margin: 0;
-      padding-bottom: .25rem; }
+      padding-bottom: .25rem;
+      text-transform: uppercase; }
     .card-title__name {
       margin: 0; }
+  .card-body {
+    font-family: 'Raleway'; }
 
 /*# sourceMappingURL=main.css.map */
