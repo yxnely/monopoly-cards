@@ -8,41 +8,43 @@
 		<link rel="stylesheet" href="styles/css/main.css">
 	</head>
 	<body>
-		<div id="app" class="grid">
-			<div class="card" v-for="property in cards">
-				<div class="card-title" v-bind:data-color="property.color">
-					<p class="card-title__text">Title Deed</p>
-					<h2 class="card-title__name">{{ property.name }}</h2>
-				</div>
-				<div class="card-body">
-					<span class="card-body__rent">Rent ${{ property.rent[0] }}</span>
-					<div class="card-body__rents">
-						<table>
-							<tbody>
-								<tr>
-									<td>Rent With 1 House</td>
-									<td>$ {{ property.rent[1] }}</td>
-								</tr>
-								<tr>
-									<td>Rent With 2 Houses</td>
-									<td>$ {{ property.rent[2] }}</td>
-								</tr>
-								<tr>
-									<td>Rent With 3 Houses</td>
-									<td>$ {{ property.rent[3] }}</td>
-								</tr>
-								<tr>
-									<td>Rent With 4 Houses</td>
-									<td>$ {{ property.rent[4] }}</td>
-								</tr>
-							</tbody>
-						</table>
+		<div class="container">
+			<div id="app" class="grid">
+				<div class="card" v-for="property in cards">
+					<div class="card-title" v-bind:data-color="property.color">
+						<p class="card-title__text">Title Deed</p>
+						<h2 class="card-title__name">{{ property.name }}</h2>
 					</div>
-					<span>with HOTEL ${{ property.rent[5] }}</span>
-					<span>Mortgage Value ${{ property.mortgage_value }}</span>
-					<span>Houses cost ${{ property.houses_cost }} each</span>
-					<span>Hotels, ${{ property.houses_cost }}. plus 4 houses</span>
-					<p class="card-body__footer">If a player owns ALL the Lots of any Color-Group, the rent is Doubled on the Unimproved Lots in that group.<br>&copy;1935 Hasbro, Inc</p>
+					<div class="card-body">
+						<span class="card-body__rent">Rent ${{ property.rent[0] }}</span>
+						<div class="card-body__rents">
+							<div class="card-body__row">
+								<span>Rent With 1 House</span>
+								<span>$ {{ property.rent[1] }}</span>
+							</div>
+							<div class="card-body__row">
+								<span>Rent With 2 Houses</span>
+								<span>$ {{ property.rent[2] }}</span>
+							</div>
+							<div class="card-body__row">
+								<span>Rent With 3 Houses</span>
+								<span>$ {{ property.rent[3] }}</span>
+							</div>
+							<div class="card-body__row">
+								<span>Rent With 3 Houses</span>
+								<span>$ {{ property.rent[3] }}</span>
+							</div>
+							<div class="card-body__row">
+								<span>Rent With 4 Houses</span>
+								<span>$ {{ property.rent[4] }}</span>
+							</div>
+						</div>
+						<span class="card-body__rent">with HOTEL ${{ property.rent[5] }}</span>
+						<span class="card-body__rent">Mortgage Value ${{ property.mortgage_value }}</span>
+						<span class="card-body__rent">Houses cost ${{ property.houses_cost }} each</span>
+						<span class="card-body__rent">Hotels, ${{ property.houses_cost }}. plus 4 houses</span>
+						<p class="card-body__footer">If a player owns ALL the Lots of any Color-Group, the rent is Doubled on the Unimproved Lots in that group.<br>&copy;1935 Hasbro, Inc</p>
+					</div>
 				</div>
 			</div>
 		</div>

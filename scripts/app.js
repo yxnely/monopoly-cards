@@ -18,7 +18,6 @@ const cardVue = new Vue({
 				})
 				.then(function(res) {
 					app.cards = res.pieces.properties[0].values;
-					console.log(app);
 				})
 		}
 	}
