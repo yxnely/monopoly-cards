@@ -1,0 +1,17 @@
+$monopoly-purple: #40247A;
+$monopoly-light-blue: #B2D9DC;
+$monopoly-magenta: #DF2879;
+$monopoly-orange: #E38023;
+$monopoly-red: #E30E1A;
+$monopoly-yellow: #E6E632;
+$monopoly-green: #169632;
+$monopoly-blue: #0E63A3;
+
+[data-color=purple] { background-color: $monopoly-purple; }
+[data-color^=light] { background-color: $monopoly-light-blue; }
+[data-color=magenta] { background-color: $monopoly-magenta; }
+[data-color=orange] { background-color: $monopoly-orange; }
+[data-color=red] { background-color: $monopoly-red; }
+[data-color=yellow] { background-color: $monopoly-yellow; }
+[data-color=green] { background-color: $monopoly-green; }
+[data-color=blue] { background-color: $monopoly-blue; }

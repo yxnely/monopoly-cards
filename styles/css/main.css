@@ -1,0 +1,25 @@
+[data-color=purple] {
+  background-color: #40247A; }
+
+[data-color^=light] {
+  background-color: #B2D9DC; }
+
+[data-color=magenta] {
+  background-color: #DF2879; }
+
+[data-color=orange] {
+  background-color: #E38023; }
+
+[data-color=red] {
+  background-color: #E30E1A; }
+
+[data-color=yellow] {
+  background-color: #E6E632; }
+
+[data-color=green] {
+  background-color: #169632; }
+
+[data-color=blue] {
+  background-color: #0E63A3; }
+
+/*# sourceMappingURL=main.css.map */
