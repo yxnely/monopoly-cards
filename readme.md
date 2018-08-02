@@ -14,4 +14,4 @@ I made Monopoly cards out of CSS because...why not?
 See it in action [here](https://yxnely.github.io/monopoly-cards/)
 
 #### Credits :smile_cat:
-Special thanks to  daviscodesbugs for providing the Monopoly properties in a nicely formatted JSON, that was a HUGE help! You can find the repo [here](https://github.com/daviscodesbugs/gamepiece-json/)
+Special thanks to  [@daviscodesbugs](https://github.com/daviscodesbugs) for providing the Monopoly properties in a nicely formatted JSON, that was a HUGE help! You can find the repo [here](https://github.com/daviscodesbugs/gamepiece-json/)
